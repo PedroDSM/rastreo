@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * Implements hook_theme()
+ */
+ function FormularioVentas_theme($existing, $type, $theme, $path) {
+    return [
+        'FormularioVentas' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+                ]
+            ]
+        ],
+        'request' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+            ]
+            ]
+        ]
+    ];
+ }
+
+function FormularioVentas_template($existing, $type, $theme, $path) {
+    return [
+        'FormularioVentas' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+                ]
+            ]
+        ],
+        'request' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+            ]
+            ]
+        ],
+        'template' => 'FormularioVentas',
+    ];
+}
+
+?>

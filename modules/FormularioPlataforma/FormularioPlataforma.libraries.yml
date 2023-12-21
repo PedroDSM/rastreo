@@ -1,0 +1,10 @@
+FormularioPlataforma:
+  version: 1.x
+  css:
+    theme:
+      css/FormularioPlataforma.css: {}
+      css/print.css: {}
+
+  dependencies:
+  - core/jquery
+  - core/drupalSettings

@@ -1,0 +1,9 @@
+Inicio.content:
+  path: '/Inicio'
+  defaults:
+    _controller: '\Drupal\Inicio\Controller\InicioController::content'
+  requirements:
+    _permission: 'access content'
+    _access: "TRUE"
+  options: 
+    no_cache: TRUE

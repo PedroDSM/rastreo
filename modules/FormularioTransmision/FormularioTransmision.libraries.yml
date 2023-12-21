@@ -1,0 +1,10 @@
+FormularioTransmision:
+  version: 1.x
+  css:
+    theme:
+      css/FormularioTransmision.css: {}
+      css/print.css: {}
+
+  dependencies:
+  - core/jquery
+  - core/drupalSettings

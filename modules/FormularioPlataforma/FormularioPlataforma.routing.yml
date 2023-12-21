@@ -1,0 +1,9 @@
+FormularioPlataforma.content:
+  path: '/Formulario/Plataforma'
+  defaults:
+    _controller: '\Drupal\FormularioPlataforma\Controller\FormularioPlataformaController::content'
+  requirements:
+    _permission: 'access content'
+    _access: "TRUE"
+  options: 
+    no_cache: TRUE

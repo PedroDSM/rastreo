@@ -1,0 +1,9 @@
+FormularioVentas.content:
+  path: '/Formulario/Ventas'
+  defaults:
+    _controller: '\Drupal\FormularioVentas\Controller\FormularioVentasController::content'
+  requirements:
+    _permission: 'access content'
+    _access: "TRUE"
+  options: 
+    no_cache: TRUE

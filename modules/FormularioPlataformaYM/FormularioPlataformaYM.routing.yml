@@ -1,0 +1,9 @@
+FormularioPlataformaYM.content:
+  path: '/Formulario/PlataformaYM'
+  defaults:
+    _controller: '\Drupal\FormularioPlataformaYM\Controller\FormularioPlataformaYMController::content'
+  requirements:
+    _permission: 'access content'
+    _access: "TRUE"
+  options: 
+    no_cache: TRUE

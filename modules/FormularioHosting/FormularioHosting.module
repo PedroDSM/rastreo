@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * Implements hook_theme()
+ */
+ function FormularioHosting_theme($existing, $type, $theme, $path) {
+    return [
+        'FormularioHosting' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+                ]
+            ]
+        ],
+        'request' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+            ]
+            ]
+        ]
+    ];
+ }
+
+function FormularioHosting_template($existing, $type, $theme, $path) {
+    return [
+        'FormularioHosting' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+                ]
+            ]
+        ],
+        'request' => [
+            'variables' => [
+                'content' => [
+                    'header' => NULL,
+                    'title' => NULL,
+                    'lorem' => NULL,
+                    'footer' => NULL,
+            ]
+            ]
+        ],
+        'template' => 'FormularioHosting',
+    ];
+}
+
+?>

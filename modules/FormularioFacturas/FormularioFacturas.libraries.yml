@@ -1,0 +1,10 @@
+FormularioFacturas:
+  version: 1.x
+  css:
+    theme:
+      css/FormularioFacturas.css: {}
+      css/print.css: {}
+
+  dependencies:
+  - core/jquery
+  - core/drupalSettings

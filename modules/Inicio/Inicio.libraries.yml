@@ -1,0 +1,10 @@
+Inicio:
+  version: 1.x
+  css:
+    theme:
+      css/Inicio.css: {}
+      css/print.css: {}
+
+  dependencies:
+  - core/jquery
+  - core/drupalSettings

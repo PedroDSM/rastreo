@@ -1,0 +1,9 @@
+FormularioContacto.content:
+  path: '/Formulario/Contacto'
+  defaults:
+    _controller: '\Drupal\FormularioContacto\Controller\FormularioContactoController::content'
+  requirements:
+    _permission: 'access content'
+    _access: "TRUE"
+  options: 
+    no_cache: TRUE

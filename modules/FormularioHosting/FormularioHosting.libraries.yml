@@ -1,0 +1,10 @@
+FormularioHosting:
+  version: 1.x
+  css:
+    theme:
+      css/FormularioHosting.css: {}
+      css/print.css: {}
+
+  dependencies:
+  - core/jquery
+  - core/drupalSettings

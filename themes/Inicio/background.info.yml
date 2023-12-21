@@ -1,0 +1,5 @@
+name: Sin Fondo
+description: Este Es Un Tema Personalizado
+type: theme
+base theme: false
+core_version_requirement: ^8 || ^9

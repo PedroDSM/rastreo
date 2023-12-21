@@ -1,0 +1,9 @@
+FormularioFacturas.content:
+  path: '/Formulario/Facturas'
+  defaults:
+    _controller: '\Drupal\FormularioFacturas\Controller\FormularioFacturasController::content'
+  requirements:
+    _permission: 'access content'
+    _access: "TRUE"
+  options: 
+    no_cache: TRUE
