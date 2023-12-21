@@ -13,7 +13,37 @@
 
 #Brindamos{
     background-image: url('fondo_brindamos.jpg');
-    height: 600px;
-    background-position:center;
+    background-size: 100% 100%;
+    height: 553px;
+    background-repeat: no-repeat;
+}
+#Permisos{
+    background-image: url('fondo_permisos.jpg');
+    background-size: 100% 100%;
+    height: 665px;
+    background-repeat: no-repeat;
+}
+#Servicios{
+    background-image: url('fondo_servicios.jpg');
+    background-size: 100% 100%;
+    height: 850px;
+    background-repeat: no-repeat;
+}
+#Productos{
+    background-image: url('fondo_productos.jpg');
+    background-size: 100% 100%;
+    height: 560px;
+    background-repeat: no-repeat;
+}
+#Plataformas{
+    background-image: url('fondo_plataforma.jpg');
+    background-size: 100% 100%;
+    height: 559px;
+    background-repeat: no-repeat;
+}
+#Contactos{
+    background-image: url('fondo_contacto.jpg');
+    background-size: 100% 100%;
+    height: 560px;
     background-repeat: no-repeat;
 }
