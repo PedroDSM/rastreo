@@ -1,0 +1,10 @@
+Productos:
+  version: 1.x
+  css:
+    theme:
+      css/Productos.css: {}
+      css/print.css: {}
+
+  dependencies:
+  - core/jquery
+  - core/drupalSettings

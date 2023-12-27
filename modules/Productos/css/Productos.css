@@ -1,0 +1,68 @@
+.Background{
+    background-image: url('FondoProductos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.small-text {
+    font-size: 0.8rem !important;
+}
+.nav-item .nav-link:hover{
+    color: #354587;
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+.navbar-nav{
+    margin-right: 17%;
+}
+
+
+.TituloInicial{
+    font-family: 'Asap',serif;
+    font-weight: bold;
+    color: #354587;
+    text-align: center;
+    font-size: 6vw;
+}
+
+.Subtitulo{
+    font-family: 'Asap',serif;
+    font-weight: bolder;
+    color: #354587;
+    text-align: center;
+    font-size: larger;
+}
+
+#Productos{
+    background-color: rgba(243, 243, 243, 0.856);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 55%;
+    padding: 0.2%;
+}
+.ProductosTitulos{
+    font-family: 'Asap';
+    font-weight: bold;
+    color: #354587;
+    font-size: large;
+}
+.ProductosTexto{
+    text-align: left;
+    margin-top: 10px;
+    font-size: medium;
+    font-family: 'Asap';
+}
+.Secciones{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 8px;
+}

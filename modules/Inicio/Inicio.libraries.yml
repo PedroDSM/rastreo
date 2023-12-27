@@ -4,7 +4,9 @@ Inicio:
     theme:
       css/Inicio.css: {}
       css/print.css: {}
-
+  js:
+    js/Inicio.js: {}
+    
   dependencies:
   - core/jquery
   - core/drupalSettings

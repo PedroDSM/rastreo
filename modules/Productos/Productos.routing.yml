@@ -1,0 +1,9 @@
+Productos.content:
+  path: '/Productos'
+  defaults:
+    _controller: '\Drupal\Productos\Controller\ProductosController::content'
+  requirements:
+    _permission: 'access content'
+    _access: "TRUE"
+  options: 
+    no_cache: TRUE

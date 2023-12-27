@@ -1,8 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .small-text {
     font-size: 0.8rem !important;
 }
 .nav-item .nav-link:hover{
-    color: aqua;
+    color: #354587;
 }
 .navbar-brand{
     margin-left: 5%;
@@ -11,39 +16,348 @@
     margin-right: 17%;
 }
 
+.TituloInicial{
+    font-family: 'Asap',serif;
+    font-weight: bold;
+    color: #354587;
+    text-align: center;
+    font-size: 6vw;
+}
+
 #Brindamos{
-    background-image: url('fondo_brindamos.jpg');
+    background-image: url('BrindamosFondo.jpg');
     background-size: 100% 100%;
-    height: 553px;
+    height: 720px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     background-repeat: no-repeat;
+}
+.BrindamosFondo{
+    background-color: rgba(0, 0, 0, 0.827);
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+}
+
+.BrindamosTitulos{
+    font-family: 'Asap';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: large;
+    line-height: 1em;
+}
+.BrindamosContenido {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.contenido{
+    text-align: center;
+    padding: 15px 15px 15px 15px;
 }
 #Permisos{
     background-image: url('fondo_permisos.jpg');
     background-size: 100% 100%;
     height: 665px;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
+.PermisosFondo{
+    background-color: rgba(255, 253, 253, 0.863);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+}
+.PermisoSub{
+    font-family: 'Asap',serif;
+    font-weight: bolder;
+    color: #354587;
+    text-align: center;
+    font-size: 3.5vw;
+}
+.PermisoCont{
+    font-family: 'Asap',serif;
+    font-weight:normal;
+    color: #354587;
+    text-align: center;
+    font-size: 3vw;
+}
+
 #Servicios{
     background-image: url('fondo_servicios.jpg');
     background-size: 100% 100%;
     height: 850px;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.ServiciosFondo{
+    background-color: rgba(255, 253, 253, 0.722);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+}
+.ServiciosContenido {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+}
+.ServiciosTitulos{
+    font-family: 'Asap';
+    font-weight: bold;
+    color: #354587;
+    font-size: medium;
+}
+.ServiciosTexto{
+    text-align: left;
+    margin-top: 10px;
+    font-size: medium;
+    font-family: 'Asap';
+}
+
 #Productos{
     background-image: url('fondo_productos.jpg');
     background-size: 100% 100%;
     height: 560px;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ProductosFondo{
+    background-color: rgba(255, 253, 253, 0.722);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    padding: 0.5%;
+}
+
+#image-container{
+    display:flex;
+    overflow-x:scroll;
+    user-select: none;
+    gap:5px;
+}
+.image-content{
+    width: 50%;
+    height: 40%;
+    object-fit: cover;
+    object-position: 100% center;
 }
 #Plataformas{
-    background-image: url('fondo_plataforma.jpg');
+    background-image: url('PlataformaFondo.png');
     background-size: 100% 100%;
-    height: 559px;
+    height: 659px;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Icono-Plataformas{
+    width: 11vw
+}
+.PlataformasFondo{
+    background-color: rgba(243, 243, 243, 0.722);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+}
+.PlataformasTexto{
+    font-size: medium;
+    margin: 10px 12px 10px 12px;
+    font-family: 'Asap';
+}
+
+.ProductosFondo a{
+    background-color: #354587;
+    border: #354587;
 }
 #Contactos{
     background-image: url('fondo_contacto.jpg');
     background-size: 100% 100%;
     height: 560px;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ContactosFondo{
+    background-color: rgba(243, 243, 243, 0.722);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+}
+.ContactosContenedor{
+    display: grid;
+    padding: 2%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.maps-move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    height: 100%;
+}
+.ContactosItem2{
+    background-color: rgba(214, 212, 212, 0.856);
+    background-image: url('world-map.png');
+    color: black;
+}
+.ContactosItem2 p{
+    text-align: center;
+    font-size: x-small;
+}
+.link{
+    color: #354587;
+    text-decoration: none;
+}
+
+i{
+    color: #354587;
+    font-size: x-large;
+    gap: 5em;
+    cursor: pointer;
+}
+
+
+@media (max-width: 995px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BrindamosFondo{
+        background-color: rgba(0, 0, 0, 0.827);
+        justify-content: center;
+        text-align: center;
+        width: 85vw;
+    }
+
+    .BrindamosTitulos{
+        font-family: 'Asap';
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-size: 4vw;
+        line-height: 1em;
+    }
+    
+    .ServiciosFondo{
+        background-color: rgba(255, 253, 253, 0.722);
+        justify-content: center;
+        text-align: center;
+        width: 85vw;
+    }
+    .ServiciosTitulos{
+        font-family: 'Asap';
+        font-weight: bold;
+        color: #354587;
+        font-size: 3vw;
+    }
+    .ServiciosTexto{
+        margin-top: 10px;
+        font-size: 3vw;
+        font-family: 'Asap';
+    }
+
+    #image-container{
+        display:flex;
+        overflow-x:scroll;
+        user-select: none;
+        gap:5px;
+    }
+    .image-content{
+        width: 50%;
+        height: 40%;
+        object-fit: cover;
+        object-position: 100% center;
+    }
+
+    .PermisosFondo{
+        background-color: rgba(255, 253, 253, 0.863);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 85vw;
+    }
+
+    .ProductosFondo{
+        background-color: rgba(255, 253, 253, 0.722);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 85vw;
+        padding: 0.5%;
+    }
+
+    .PlataformasFondo{
+        background-color: rgba(243, 243, 243, 0.722);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 85vw;
+        padding: 0.8%;
+    }
+
+    .PlataformasTexto{
+        font-size: 3vw;
+        text-align: justify;
+        margin: 10px 0 10px 0;
+        font-family: 'Asap';
+    }
+    
+    .Icono-Plataformas{
+        width: 35vw
+    }
+
+    .ContactosFondo{
+        background-color: rgba(243, 243, 243, 0.722);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 85vw;
+    }
+
+    .BrindamosContenido, .ServiciosContenido{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .maps-move {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 100%;
+        height: 100%;
+    }
+    .ContactosItem2 p{
+        text-align: center;
+        font-size: 3.5vw;
+    }
 }
