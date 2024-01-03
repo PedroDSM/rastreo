@@ -137,21 +137,21 @@ class __TwigTemplate_6402130e6f450e592e1451f67a9c9449 extends \Twig\Template
   <div class=\"BrindamosFondo\">
     <p class=\"TituloInicial\">Brindamos</p>
     <div class=\"BrindamosContenido\">
-      <div class=\"contenido\">
+      <div class=\"contenidos\">
         <p class=\"BrindamosTitulos\">Asistencia y conectividad</p>
         <img src=\"";
         // line 92
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->getFileUrl("public://images/icono1.png"), "html", null, true);
         echo "\" width=\"50%\" height=\"50%\" alt=\"Icono-01\">
       </div>
-      <div class=\"contenido\">
+      <div class=\"contenidos\">
         <p class=\"BrindamosTitulos\">Ahorro de Insumos básicos</p>
         <img src=\"";
         // line 96
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->getFileUrl("public://images/icono2.png"), "html", null, true);
         echo "\" width=\"43%\" height=\"43%\" alt=\"Icono-02\">
       </div>
-      <div class=\"contenido\">
+      <div class=\"contenidos\">
         <p class=\"BrindamosTitulos\">Seguridad y Confianza</p>
         <img src=\"";
         // line 100

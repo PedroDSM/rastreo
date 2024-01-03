@@ -45,13 +45,16 @@
     margin-top: 5%;
     margin-bottom: 5%;
     width: 55%;
-    padding: 0.2%;
+    padding: 1%;
 }
 .ProductosTitulos{
     font-family: 'Asap';
     font-weight: bold;
     color: #354587;
     font-size: large;
+}
+.ProductosTitulos:hover{
+    color: #1a3dc7;
 }
 .ProductosTexto{
     text-align: left;
@@ -65,4 +68,13 @@
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 8px;
+}
+
+@media (max-width: 995px){
+    #Productos{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 1.6%;
+        width: 85%;
+    }
 }
